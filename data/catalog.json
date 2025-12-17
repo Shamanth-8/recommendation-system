@@ -1,0 +1,142 @@
+[
+    {
+        "id": "shl001",
+        "title": "Modern Frontend Development with React",
+        "category": "Frontend Development",
+        "difficulty": "Intermediate",
+        "provider": "SHL Academy",
+        "description": "Master modern React concepts including Hooks, Context, and Redux.",
+        "tags": [
+            "JavaScript",
+            "React",
+            "Frontend",
+            "Web"
+        ]
+    },
+    {
+        "id": "shl002",
+        "title": "Advanced CSS and Sass Mastery",
+        "category": "Frontend Development",
+        "difficulty": "Advanced",
+        "provider": "SHL Academy",
+        "description": "Deep dive into CSS Grid, Flexbox, animations, and Sass preprocessor.",
+        "tags": [
+            "CSS",
+            "Sass",
+            "Frontend",
+            "Design"
+        ]
+    },
+    {
+        "id": "shl003",
+        "title": "Python for Data Science Bootcamp",
+        "category": "Data Science",
+        "difficulty": "Beginner",
+        "provider": "SHL Academy",
+        "description": "Complete Python bootcamp for data analysis, visualization, and machine learning.",
+        "tags": [
+            "Python",
+            "Data Science",
+            "Pandas",
+            "NumPy"
+        ]
+    },
+    {
+        "id": "shl004",
+        "title": "Machine Learning A-Z",
+        "category": "Data Science",
+        "difficulty": "Intermediate",
+        "provider": "SHL Academy",
+        "description": "Hands-on machine learning with Python and Scikit-Learn.",
+        "tags": [
+            "Python",
+            "Machine Learning",
+            "AI",
+            "Data Science"
+        ]
+    },
+    {
+        "id": "shl005",
+        "title": "Backend Development with Node.js",
+        "category": "Backend Development",
+        "difficulty": "Intermediate",
+        "provider": "SHL Academy",
+        "description": "Build scalable backend systems using Node.js, Express, and MongoDB.",
+        "tags": [
+            "JavaScript",
+            "Node.js",
+            "Backend",
+            "API"
+        ]
+    },
+    {
+        "id": "shl006",
+        "title": "Java Enterprise Application Development",
+        "category": "Backend Development",
+        "difficulty": "Advanced",
+        "provider": "SHL Academy",
+        "description": "Architect and build enterprise-grade applications with Java Spring Boot.",
+        "tags": [
+            "Java",
+            "Spring Boot",
+            "Backend",
+            "Enterprise"
+        ]
+    },
+    {
+        "id": "shl007",
+        "title": "DevOps Engineering Essentials",
+        "category": "DevOps",
+        "difficulty": "Beginner",
+        "provider": "SHL Academy",
+        "description": "Introduction to DevOps culture, CI/CD pipelines, and containerization.",
+        "tags": [
+            "DevOps",
+            "Docker",
+            "CI/CD",
+            "Cloud"
+        ]
+    },
+    {
+        "id": "shl008",
+        "title": "Kubernetes and Cloud Native",
+        "category": "DevOps",
+        "difficulty": "Advanced",
+        "provider": "SHL Academy",
+        "description": "Master Kubernetes orchestration and cloud-native architecture patterns.",
+        "tags": [
+            "DevOps",
+            "Kubernetes",
+            "Cloud",
+            "AWS"
+        ]
+    },
+    {
+        "id": "shl009",
+        "title": "UI/UX Design Fundamentals",
+        "category": "UI/UX Design",
+        "difficulty": "Beginner",
+        "provider": "SHL Academy",
+        "description": "Learn the principles of user interface and user experience design.",
+        "tags": [
+            "Design",
+            "UI/UX",
+            "Figma",
+            "Prototyping"
+        ]
+    },
+    {
+        "id": "shl010",
+        "title": "Full Stack Web Development",
+        "category": "Full Stack",
+        "difficulty": "Intermediate",
+        "provider": "SHL Academy",
+        "description": "Become a full stack developer with modern web technologies.",
+        "tags": [
+            "Full Stack",
+            "JavaScript",
+            "React",
+            "Node.js"
+        ]
+    }
+]
