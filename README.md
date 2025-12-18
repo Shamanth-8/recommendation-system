@@ -76,6 +76,6 @@ assessment-recommendation-engine/
 - Modify the assessment questions in `app.py` under the `show_assessment()` function
 - Add more recommendation logic in the `show_recommendations()` function
 
-## License
+## live deployment
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+https://recommendation-system-npxyyajtzcg2mobcvll9i6.streamlit.app/
