@@ -214,14 +214,21 @@ def show_questions():
         {
             "id": "q1",
             "question": "What is your primary area of expertise?",
-            "type": "radio",
-            "options": ["Frontend Development", "Backend Development", "Data Science", "DevOps", "UI/UX Design"]
+            "type": "selectbox",
+            "options": [
+                "Frontend Development", "Backend Development", "Data Science", "DevOps", "UI/UX Design", "Full Stack",
+                "Banking & Finance", "Healthcare", "Hospitality", "Insurance", "Manufacturing", "Oil & Gas", "Retail", "Telecommunications"
+            ]
         },
         {
             "id": "q2",
-            "question": "Which programming languages are you proficient in?",
+            "question": "Which skills or tools are you proficient in?",
             "type": "multiselect",
-            "options": ["Python", "JavaScript", "Java", "C++", "Go", "Rust", "TypeScript"]
+            "options": [
+                "Python", "JavaScript", "Java", "C++", "Go", "Rust", "TypeScript",
+                "Banking", "Finance", "Healthcare", "Nursing", "Customer Service", "Sales", "Management", "Leadership",
+                "Insurance", "Claims", "Manufacturing", "Operations", "Retail", "Telecommunications", "Network"
+            ]
         },
         {
             "id": "q3",
@@ -236,6 +243,12 @@ def show_questions():
             "question": "What type of role are you looking for?",
             "type": "selectbox",
             "options": ["Full-time", "Part-time", "Contract", "Internship"]
+        },
+        {
+            "id": "q5",
+            "question": "What position level are you targeting?",
+            "type": "selectbox",
+            "options": ["Entry", "Mid", "Senior", "Executive"]
         }
     ]
     
@@ -305,7 +318,8 @@ def show_recommendations():
         
     # User's selected category from Q1
     user_category = st.session_state.answers.get("q1", "")
-    user_languages = st.session_state.answers.get("q2", [])
+    user_skills = st.session_state.answers.get("q2", [])
+    user_position_level = st.session_state.answers.get("q5", "Entry")
     
     # Filter and Score Recommendations
     recommendations = []
@@ -317,10 +331,14 @@ def show_recommendations():
             if item.get("category") == user_category:
                 score += 50
             
-            # Match for languages/tags
+            # Match for position level
+            if item.get("position_level") == user_position_level:
+                score += 25
+            
+            # Match for skills/tags
             tags = item.get("tags", [])
-            for lang in user_languages:
-                if lang in tags:
+            for skill in user_skills:
+                if skill in tags:
                     score += 15
             
             # Add some randomness for variation in generic scores
@@ -332,7 +350,7 @@ def show_recommendations():
                 
                 item_copy = item.copy()
                 item_copy["match"] = f"{match_percentage}%"
-                item_copy["type"] = "Course" # Default type if missing
+                item_copy["type"] = "Assessment" # Default type
                 recommendations.append(item_copy)
         
         # Sort by match score (simulated by checking the integer value of the percentage string)
@@ -356,14 +374,15 @@ def show_recommendations():
     for rec in recommendations:
         with st.expander(f"🎯 {rec['title']} - {rec['match']} Match"):
             st.markdown(f"""
-            **Type:** {rec.get('type', 'Course')}  
-            **Provider:** {rec.get('provider', 'External')}  
+            **Type:** {rec.get('type', 'Assessment')}  
+            **Provider:** {rec.get('provider', 'SHL')}  
+            **Category:** {rec.get('category', 'General')}  
+            **Position Level:** {rec.get('position_level', 'N/A')}  
             **Match Score:** {rec.get('match', 'N/A')}  
+            **Remote Support:** {rec.get('remote_support', 'N/A')}  
+            **Adaptive:** {rec.get('adaptive_reasoning', 'N/A')}  
             **Description:** {rec.get('description', '')}  
             """)
-            if st.button("View Details", key=f"view_{rec['id']}"):
-                st.session_state.selected_recommendation = rec
-                st.rerun()
 
 # Main App
 def main():
@@ -404,7 +423,7 @@ def main():
     st.markdown(
         """
         <div style='margin-top: 4rem; padding: 1.5rem; text-align: center; color: #6c757d; font-size: 0.9rem;'>
-            <p>© 2025 Career Path Finder | Built with ❤️ | <a href='#' style='color: #4e73df; text-decoration: none;'>Privacy Policy</a> • <a href='#' style='color: #4e73df; text-decoration: none;'>Terms of Service</a></p>
+            <p>© 2025 Career Path Finder</p>
         </div>
         """,
         unsafe_allow_html=True

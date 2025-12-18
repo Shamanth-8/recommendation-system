@@ -29,7 +29,7 @@ class UserInDB(UserBase):
     updated_at: Optional[datetime] = None
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 # Token schemas
 class Token(BaseModel):
@@ -54,7 +54,7 @@ class QuestionResponse(QuestionBase):
     id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class AssessmentBase(BaseModel):
     title: str
@@ -76,7 +76,7 @@ class AssessmentResponse(AssessmentBase):
     questions: List[QuestionResponse]
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class AssessmentUpdate(BaseModel):
     title: Optional[str] = None
@@ -103,7 +103,7 @@ class UserAssessmentResponse(UserAssessmentBase):
     completed_at: datetime
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 # Recommendation schemas
 class RecommendationRequest(BaseModel):
@@ -137,7 +137,7 @@ class YouTubeVideoBase(BaseModel):
 
 class YouTubeVideoResponse(YouTubeVideoBase):
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class YouTubeSearchRequest(BaseModel):
     query: str

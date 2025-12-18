@@ -4,8 +4,11 @@
         "title": "Modern Frontend Development with React",
         "category": "Frontend Development",
         "difficulty": "Intermediate",
+        "position_level": "Mid",
         "provider": "SHL Academy",
         "description": "Master modern React concepts including Hooks, Context, and Redux.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
         "tags": [
             "JavaScript",
             "React",
@@ -18,8 +21,11 @@
         "title": "Advanced CSS and Sass Mastery",
         "category": "Frontend Development",
         "difficulty": "Advanced",
+        "position_level": "Senior",
         "provider": "SHL Academy",
         "description": "Deep dive into CSS Grid, Flexbox, animations, and Sass preprocessor.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "No",
         "tags": [
             "CSS",
             "Sass",
@@ -32,8 +38,11 @@
         "title": "Python for Data Science Bootcamp",
         "category": "Data Science",
         "difficulty": "Beginner",
+        "position_level": "Entry",
         "provider": "SHL Academy",
         "description": "Complete Python bootcamp for data analysis, visualization, and machine learning.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
         "tags": [
             "Python",
             "Data Science",
@@ -46,8 +55,11 @@
         "title": "Machine Learning A-Z",
         "category": "Data Science",
         "difficulty": "Intermediate",
+        "position_level": "Mid",
         "provider": "SHL Academy",
         "description": "Hands-on machine learning with Python and Scikit-Learn.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
         "tags": [
             "Python",
             "Machine Learning",
@@ -60,8 +72,11 @@
         "title": "Backend Development with Node.js",
         "category": "Backend Development",
         "difficulty": "Intermediate",
+        "position_level": "Mid",
         "provider": "SHL Academy",
         "description": "Build scalable backend systems using Node.js, Express, and MongoDB.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "No",
         "tags": [
             "JavaScript",
             "Node.js",
@@ -74,8 +89,11 @@
         "title": "Java Enterprise Application Development",
         "category": "Backend Development",
         "difficulty": "Advanced",
+        "position_level": "Senior",
         "provider": "SHL Academy",
         "description": "Architect and build enterprise-grade applications with Java Spring Boot.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
         "tags": [
             "Java",
             "Spring Boot",
@@ -88,8 +106,11 @@
         "title": "DevOps Engineering Essentials",
         "category": "DevOps",
         "difficulty": "Beginner",
+        "position_level": "Entry",
         "provider": "SHL Academy",
         "description": "Introduction to DevOps culture, CI/CD pipelines, and containerization.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "No",
         "tags": [
             "DevOps",
             "Docker",
@@ -102,8 +123,11 @@
         "title": "Kubernetes and Cloud Native",
         "category": "DevOps",
         "difficulty": "Advanced",
+        "position_level": "Senior",
         "provider": "SHL Academy",
         "description": "Master Kubernetes orchestration and cloud-native architecture patterns.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
         "tags": [
             "DevOps",
             "Kubernetes",
@@ -116,8 +140,11 @@
         "title": "UI/UX Design Fundamentals",
         "category": "UI/UX Design",
         "difficulty": "Beginner",
+        "position_level": "Entry",
         "provider": "SHL Academy",
         "description": "Learn the principles of user interface and user experience design.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "No",
         "tags": [
             "Design",
             "UI/UX",
@@ -130,13 +157,492 @@
         "title": "Full Stack Web Development",
         "category": "Full Stack",
         "difficulty": "Intermediate",
+        "position_level": "Mid",
         "provider": "SHL Academy",
         "description": "Become a full stack developer with modern web technologies.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
         "tags": [
             "Full Stack",
             "JavaScript",
             "React",
             "Node.js"
+        ]
+    },
+    {
+        "id": "shl011",
+        "title": "Bank Administrative Assistant Assessment",
+        "category": "Banking & Finance",
+        "difficulty": "Beginner",
+        "position_level": "Entry",
+        "provider": "SHL",
+        "description": "Evaluate candidates for bank administrative roles focusing on attention to detail and customer service.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "No",
+        "tags": [
+            "Banking",
+            "Administration",
+            "Customer Service",
+            "Finance"
+        ]
+    },
+    {
+        "id": "shl012",
+        "title": "Bank Collections Agent Solution",
+        "category": "Banking & Finance",
+        "difficulty": "Intermediate",
+        "position_level": "Mid",
+        "provider": "SHL",
+        "description": "Assess skills for collections roles including negotiation and compliance knowledge.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Banking",
+            "Collections",
+            "Negotiation",
+            "Compliance"
+        ]
+    },
+    {
+        "id": "shl013",
+        "title": "Branch Manager Assessment",
+        "category": "Banking & Finance",
+        "difficulty": "Advanced",
+        "position_level": "Senior",
+        "provider": "SHL",
+        "description": "Comprehensive assessment for branch management roles including leadership and operations.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Banking",
+            "Management",
+            "Leadership",
+            "Operations"
+        ]
+    },
+    {
+        "id": "shl014",
+        "title": "Financial Analyst Competency Assessment",
+        "category": "Banking & Finance",
+        "difficulty": "Advanced",
+        "position_level": "Senior",
+        "provider": "SHL",
+        "description": "Evaluate analytical reasoning and financial modeling capabilities.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Finance",
+            "Analytics",
+            "Modeling",
+            "Investment"
+        ]
+    },
+    {
+        "id": "shl015",
+        "title": "Chief Financial Officer Executive Assessment",
+        "category": "Banking & Finance",
+        "difficulty": "Advanced",
+        "position_level": "Executive",
+        "provider": "SHL",
+        "description": "Executive-level assessment for CFO candidates covering strategic financial leadership.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Finance",
+            "Executive",
+            "Strategy",
+            "Leadership"
+        ]
+    },
+    {
+        "id": "shl016",
+        "title": "Healthcare Administrative Assistant",
+        "category": "Healthcare",
+        "difficulty": "Beginner",
+        "position_level": "Entry",
+        "provider": "SHL",
+        "description": "Assess candidates for healthcare admin roles focusing on patient coordination.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "No",
+        "tags": [
+            "Healthcare",
+            "Administration",
+            "Patient Care",
+            "Coordination"
+        ]
+    },
+    {
+        "id": "shl017",
+        "title": "Registered Nurse Competency Assessment",
+        "category": "Healthcare",
+        "difficulty": "Intermediate",
+        "position_level": "Mid",
+        "provider": "SHL",
+        "description": "Comprehensive nursing competency evaluation including clinical judgment.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Healthcare",
+            "Nursing",
+            "Clinical",
+            "Patient Care"
+        ]
+    },
+    {
+        "id": "shl018",
+        "title": "Healthcare Operations Manager",
+        "category": "Healthcare",
+        "difficulty": "Advanced",
+        "position_level": "Senior",
+        "provider": "SHL",
+        "description": "Evaluate leadership and operational management skills in healthcare settings.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Healthcare",
+            "Management",
+            "Operations",
+            "Leadership"
+        ]
+    },
+    {
+        "id": "shl019",
+        "title": "Hospital Administrator Executive Assessment",
+        "category": "Healthcare",
+        "difficulty": "Advanced",
+        "position_level": "Executive",
+        "provider": "SHL",
+        "description": "Executive assessment for hospital leadership roles.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Healthcare",
+            "Executive",
+            "Hospital",
+            "Strategy"
+        ]
+    },
+    {
+        "id": "shl020",
+        "title": "Hotel Front Desk Agent Assessment",
+        "category": "Hospitality",
+        "difficulty": "Beginner",
+        "position_level": "Entry",
+        "provider": "SHL",
+        "description": "Evaluate customer service and communication skills for front desk roles.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "No",
+        "tags": [
+            "Hospitality",
+            "Customer Service",
+            "Communication",
+            "Hotel"
+        ]
+    },
+    {
+        "id": "shl021",
+        "title": "Restaurant Manager Solution",
+        "category": "Hospitality",
+        "difficulty": "Intermediate",
+        "position_level": "Mid",
+        "provider": "SHL",
+        "description": "Assess management capabilities for restaurant operations.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Hospitality",
+            "Restaurant",
+            "Management",
+            "Operations"
+        ]
+    },
+    {
+        "id": "shl022",
+        "title": "Hotel General Manager Assessment",
+        "category": "Hospitality",
+        "difficulty": "Advanced",
+        "position_level": "Senior",
+        "provider": "SHL",
+        "description": "Comprehensive assessment for hotel general management roles.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Hospitality",
+            "Hotel",
+            "Management",
+            "Leadership"
+        ]
+    },
+    {
+        "id": "shl023",
+        "title": "Insurance Claims Processor Assessment",
+        "category": "Insurance",
+        "difficulty": "Beginner",
+        "position_level": "Entry",
+        "provider": "SHL",
+        "description": "Evaluate attention to detail and processing accuracy for claims roles.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "No",
+        "tags": [
+            "Insurance",
+            "Claims",
+            "Processing",
+            "Accuracy"
+        ]
+    },
+    {
+        "id": "shl024",
+        "title": "Insurance Underwriter Assessment",
+        "category": "Insurance",
+        "difficulty": "Intermediate",
+        "position_level": "Mid",
+        "provider": "SHL",
+        "description": "Assess risk analysis and decision-making skills for underwriting roles.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Insurance",
+            "Underwriting",
+            "Risk Analysis",
+            "Decision Making"
+        ]
+    },
+    {
+        "id": "shl025",
+        "title": "Insurance Agency Manager Solution",
+        "category": "Insurance",
+        "difficulty": "Advanced",
+        "position_level": "Senior",
+        "provider": "SHL",
+        "description": "Evaluate leadership and sales management for agency roles.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Insurance",
+            "Agency",
+            "Management",
+            "Sales"
+        ]
+    },
+    {
+        "id": "shl026",
+        "title": "Manufacturing Operator Assessment",
+        "category": "Manufacturing",
+        "difficulty": "Beginner",
+        "position_level": "Entry",
+        "provider": "SHL",
+        "description": "Assess mechanical aptitude and safety awareness for production roles.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "No",
+        "tags": [
+            "Manufacturing",
+            "Production",
+            "Safety",
+            "Operations"
+        ]
+    },
+    {
+        "id": "shl027",
+        "title": "Quality Control Technician Assessment",
+        "category": "Manufacturing",
+        "difficulty": "Intermediate",
+        "position_level": "Mid",
+        "provider": "SHL",
+        "description": "Evaluate quality assurance skills and attention to specifications.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Manufacturing",
+            "Quality Control",
+            "Inspection",
+            "Standards"
+        ]
+    },
+    {
+        "id": "shl028",
+        "title": "Plant Manager Assessment",
+        "category": "Manufacturing",
+        "difficulty": "Advanced",
+        "position_level": "Senior",
+        "provider": "SHL",
+        "description": "Comprehensive assessment for manufacturing plant leadership.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Manufacturing",
+            "Plant Management",
+            "Leadership",
+            "Operations"
+        ]
+    },
+    {
+        "id": "shl029",
+        "title": "Oil Field Technician Assessment",
+        "category": "Oil & Gas",
+        "difficulty": "Beginner",
+        "position_level": "Entry",
+        "provider": "SHL",
+        "description": "Evaluate safety awareness and technical aptitude for field roles.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "No",
+        "tags": [
+            "Oil & Gas",
+            "Field Operations",
+            "Safety",
+            "Technical"
+        ]
+    },
+    {
+        "id": "shl030",
+        "title": "Drilling Engineer Assessment",
+        "category": "Oil & Gas",
+        "difficulty": "Intermediate",
+        "position_level": "Mid",
+        "provider": "SHL",
+        "description": "Assess engineering and problem-solving skills for drilling operations.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Oil & Gas",
+            "Engineering",
+            "Drilling",
+            "Problem Solving"
+        ]
+    },
+    {
+        "id": "shl031",
+        "title": "Refinery Operations Manager",
+        "category": "Oil & Gas",
+        "difficulty": "Advanced",
+        "position_level": "Senior",
+        "provider": "SHL",
+        "description": "Evaluate leadership and operational management for refinery settings.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Oil & Gas",
+            "Refinery",
+            "Management",
+            "Operations"
+        ]
+    },
+    {
+        "id": "shl032",
+        "title": "Retail Sales Associate Assessment",
+        "category": "Retail",
+        "difficulty": "Beginner",
+        "position_level": "Entry",
+        "provider": "SHL",
+        "description": "Evaluate customer service and sales aptitude for retail roles.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "No",
+        "tags": [
+            "Retail",
+            "Sales",
+            "Customer Service",
+            "Communication"
+        ]
+    },
+    {
+        "id": "shl033",
+        "title": "Cashier Solution",
+        "category": "Retail",
+        "difficulty": "Beginner",
+        "position_level": "Entry",
+        "provider": "SHL",
+        "description": "Assess accuracy and customer interaction skills for cashier roles.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "No",
+        "tags": [
+            "Retail",
+            "Cashier",
+            "Customer Service",
+            "Accuracy"
+        ]
+    },
+    {
+        "id": "shl034",
+        "title": "Store Manager Assessment",
+        "category": "Retail",
+        "difficulty": "Intermediate",
+        "position_level": "Mid",
+        "provider": "SHL",
+        "description": "Evaluate leadership and retail operations management.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Retail",
+            "Management",
+            "Operations",
+            "Leadership"
+        ]
+    },
+    {
+        "id": "shl035",
+        "title": "Regional Retail Director Assessment",
+        "category": "Retail",
+        "difficulty": "Advanced",
+        "position_level": "Senior",
+        "provider": "SHL",
+        "description": "Assess strategic leadership for multi-store retail operations.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Retail",
+            "Director",
+            "Strategy",
+            "Leadership"
+        ]
+    },
+    {
+        "id": "shl036",
+        "title": "Call Center Agent Assessment",
+        "category": "Telecommunications",
+        "difficulty": "Beginner",
+        "position_level": "Entry",
+        "provider": "SHL",
+        "description": "Evaluate communication and problem-solving for call center roles.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "No",
+        "tags": [
+            "Telecommunications",
+            "Call Center",
+            "Customer Service",
+            "Communication"
+        ]
+    },
+    {
+        "id": "shl037",
+        "title": "Network Technician Assessment",
+        "category": "Telecommunications",
+        "difficulty": "Intermediate",
+        "position_level": "Mid",
+        "provider": "SHL",
+        "description": "Assess technical skills for network installation and maintenance.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Telecommunications",
+            "Network",
+            "Technical",
+            "Infrastructure"
+        ]
+    },
+    {
+        "id": "shl038",
+        "title": "Telecommunications Operations Manager",
+        "category": "Telecommunications",
+        "difficulty": "Advanced",
+        "position_level": "Senior",
+        "provider": "SHL",
+        "description": "Evaluate leadership for telecommunications operations.",
+        "remote_support": "Yes",
+        "adaptive_reasoning": "Yes",
+        "tags": [
+            "Telecommunications",
+            "Operations",
+            "Management",
+            "Leadership"
         ]
     }
 ]

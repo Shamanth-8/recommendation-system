@@ -1,0 +1,9 @@
+first_name,last_name,expertise,languages,experience,role_interest
+Alice,Frontend,Frontend Development,JavaScript;React,3,Full-time
+Bob,Backend,Backend Development,Java;Spring Boot,5,Full-time
+Charlie,Data,Data Science,Python;Pandas,1,Internship
+Dave,DevOps,DevOps,Docker;AWS,4,Contract
+Eve,Designer,UI/UX Design,Figma,2,Part-time
+Frank,FullStack,Full Stack,JavaScript;Node.js;React,4,Full-time
+Grace,Beginner,Frontend Development,JavaScript,0,Internship
+Harry,Expert,Data Science,Python;TensorFlow;PyTorch,10,Full-time
